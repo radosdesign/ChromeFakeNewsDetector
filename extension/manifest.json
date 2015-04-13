@@ -1,7 +1,7 @@
 {
   "name": "Upozornenie na Putinovu propagandu",
   "short_name": "Putinova propaganda",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Upozornenie na weby ktoré vedome či nevedome šíria Putinovu propagandu.",
   "background": {
     "scripts": ["background.js"],
