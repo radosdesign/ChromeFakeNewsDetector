@@ -13,7 +13,6 @@
     "default_title" : "Upozornenie: Táto stránka môže šíriť Putinovu propagandu!"
   },
   "permissions" : [
-    "declarativeContent",
 	"tabs"
   ],
   "icons" : {
