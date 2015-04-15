@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Upozornenie na Putinovskú propagandu"
+  },
+  "appShortName": {
+    "message": "Putinovská propaganda"
+  },
+  "appDesc": {
+    "message": "Upozornenie na weby ktoré vedome či nevedome šíria Putinovskú propagandu."
+  },
+  "actionDefaultTitle": {
+    "message": "Upozornenie: Táto stránka môže šíriť Putinovskú propagandu!"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "name": "Upozornenie na Putinovu propagandu",
-  "short_name": "Putinova propaganda",
-  "version": "1.0.3",
-  "description": "Upozornenie na weby ktoré vedome či nevedome šíria Putinovu propagandu.",
+  "name": "__MSG_appName__",
+  "short_name": "__MSG_appShortName__",
+  "default_locale": "sk",
+  "version": "1.0.4",
+  "description": "__MSG_appDesc__",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -10,7 +11,7 @@
   "page_action" :
   {
     "default_icon" : "icon-19.png",
-    "default_title" : "Upozornenie: Táto stránka môže šíriť Putinovu propagandu!"
+    "default_title" : "__MSG_actionDefaultTitle__"
   },
   "permissions" : [
 	"tabs"

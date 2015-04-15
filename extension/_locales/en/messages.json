@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Warning of pro-Putin propaganda"
+  },
+  "appShortName": {
+    "message": "Pro-Putin propaganda"
+  },
+  "appDesc": {
+    "message": "Warning of websites which knowingly or unknowingly spread pro-Putin propaganda."
+  },
+  "actionDefaultTitle": {
+    "message": "Warning: This website may spread pro-Putin propaganda!"
+  }
+}
