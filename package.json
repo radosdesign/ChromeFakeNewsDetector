@@ -1,6 +1,6 @@
 {
   "name": "pro-putin-propaganda",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-uglify": "~0.5.0",
