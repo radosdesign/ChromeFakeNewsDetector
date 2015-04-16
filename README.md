@@ -9,4 +9,11 @@ Slovak newspaper "Dennik N": http://goo.gl/R0h2rX
 Slovak news website "Tvnoviny.sk": http://goo.gl/BuVELL  
 Slovak TV station "Markiza": http://goo.gl/MD25rX  
 
-[View in Store](https://chrome.google.com/webstore/detail/upozornenie-na-putinovu-p/ajfhmidimnkpbhnkcckllicmhhdipmoo)
+[View in Store](https://chrome.google.com/webstore/detail/upozornenie-na-putinovu-p/ajfhmidimnkpbhnkcckllicmhhdipmoo)  
+
+## How to build
+
+```
+npm install
+grunt
+```
