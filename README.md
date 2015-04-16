@@ -17,5 +17,3 @@ Slovak TV station "Markiza": http://goo.gl/MD25rX
 npm install
 grunt
 ```
-
-![Google Chrome extension: Warning of pro-Putin propaganda](http://radosdesign.github.io/propaganda-screenshot.jpg)
