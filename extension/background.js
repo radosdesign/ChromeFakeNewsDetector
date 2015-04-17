@@ -10,6 +10,7 @@ var sites = [
 	"bezpolitickekorektnosti.cz",
 	"cez-okno.net",
 	"charta2015.com",
+	"sputniknews.com",
 	"czechfreepress.cz",
 	"eiaktivity.sk",
 	"extraplus.sk",
