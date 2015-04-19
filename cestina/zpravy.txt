@@ -1,0 +1,21 @@
+{
+  "appName": {
+    "message": "Upozornenie na Putinovskú propagandu"
+  },
+  "appShortName": {
+    "message": "Putinovská propaganda"
+  },
+  "appDesc": {
+    "message": "Upozornenie na weby ktoré vedome či nevedome šíria Putinovskú propagandu."
+  },
+  "actionDefaultTitle": {
+    "message": "Upozornenie: Táto stránka môže šíriť Putinovskú propagandu!"
+  },
+  "actionDefaultTitle": {
+    "message": "Upozornenie: Táto stránka môže šíriť Putinovskú propagandu!"
+  },
+  "appDetailDesc": {
+    "message": "Upozornenie na weby ktoré vedome či nevedome šíria Putinovskú propagandu. Zoznam Slovenských a Českých stránok je vytvorený aktivistom a učiteľom dejepisu Jurajom Smatanom. V prípade že sa nachádzate na stránke ktorá je zaradená v zozname, zobrazí sa vám ikonka podobajúca sa na sovietsku zástavu (kosák a kladivo) napravo od webovej adresy. Boli ste varovaní :-)"
+  },
+  
+}
