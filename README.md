@@ -4,7 +4,7 @@ Warning of websites which knowingly or unknowingly spread pro-Putin propaganda. 
 When you are on the website which is on the list, icon which looks like soviet flag will be show on the right side of address bar.  
 You have been warned :-)
 
-Czech users: Please help to translate the extension to Czech language: http://goo.gl/dL1bqe
+![Czech translation](http://icons.iconarchive.com/icons/icondrawer/flags/16/Czech-Republic-icon.png) **Czech users: Please help to translate the extension to Czech language: http://goo.gl/dL1bqe**
 
 Media:  
 Slovak newspaper "Dennik N": http://goo.gl/R0h2rX  
