@@ -1,6 +1,6 @@
 # Google Chrome extension: Warning of pro-Putin propaganda
 
-Warning of websites which knowingly or unknowingly spread pro-Putin propaganda. List of Slovak and Czech websites is created by activist and history teacher Juraj Smatana.
+Warning of websites which knowingly or unknowingly spread pro-Putin propaganda. List of Slovak and Czech websites was originally created by activist and history teacher Juraj Smatana. Current list is based on https://www.konspiratori.sk/en.
 When you are on the website which is on the list, icon which looks like soviet flag will be show on the right side of address bar.  
 You have been warned :-)
 
