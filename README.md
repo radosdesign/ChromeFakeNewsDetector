@@ -15,9 +15,21 @@ Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP
 
 ## How to build
 
+##### Install node packages
 ```
 npm install
+```
+
+##### Update sites list
+```
+node generate-sites.js
+```
+This command updates 'extension/sites.js' file based on https://www.konspiratori.sk/assets/downloads/zoznam.txt 
+
+##### Create distribution package
+```
 grunt
 ```
+This will generate 'dist/extension.zip' which you can upload to Google's Chrome Webstore (https://chrome.google.com/webstore/devconsole)
 
 ![Google Chrome extension: Warning of pro-Putin propaganda](http://radosdesign.github.io/propaganda-screenshot.jpg)
