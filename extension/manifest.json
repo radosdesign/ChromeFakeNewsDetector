@@ -2,10 +2,13 @@
   "name": "__MSG_appName__",
   "short_name": "__MSG_appShortName__",
   "default_locale": "sk",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "__MSG_appDesc__",
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "sites.js",
+      "background.js"
+    ],
     "persistent": false
   },
   "page_action" :
