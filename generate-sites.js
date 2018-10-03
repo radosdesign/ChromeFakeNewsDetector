@@ -1,8 +1,12 @@
-var fetch = require('node-fetch');
-var fs = require('fs');
+'use strict';
 
+const fetch = require('node-fetch');
+const fs = require('fs');
 
-fetch('https://www.konspiratori.sk/assets/downloads/zoznam.txt')
+const konspiratory_url = 'https://www.konspiratori.sk/assets/downloads/zoznam.txt';
+
+// Fetch the list of domains and create 'extension/sites.js' file
+fetch(konspiratory_url)
     .then(res => res.text())
     .then(body => {
             let lines = body.split(/\r?\n/);
