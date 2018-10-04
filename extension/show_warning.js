@@ -10,7 +10,6 @@ if (!warning_already_shown) {
             text += possible.charAt(Math.floor(Math.random() * possible.length));
         return text;
     }
-
     let dialog_id = makeid();
 
     // Dialog
