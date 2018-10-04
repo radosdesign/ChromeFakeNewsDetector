@@ -1,3 +1,4 @@
+// Last update: Fri Oct 05 2018 00:01:50 GMT+0200 (Central European Summer Time)
 var sites = [
   "vigilantcitizen.com",
   "zvedavec.org",

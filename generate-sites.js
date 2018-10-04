@@ -4,6 +4,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 
 const domain_list_url = 'https://www.konspiratori.sk/assets/downloads/zoznam.txt';
+const sites_file = "extension/sites.js";
 
 // Fetch the list of domains and create 'extension/sites.js' file
 fetch(domain_list_url)
@@ -12,7 +13,8 @@ fetch(domain_list_url)
             let lines = body.split(/\r?\n/);
             let linesCount = lines.length;
 
-            let stream = fs.createWriteStream("extension/sites.js");
+            let stream = fs.createWriteStream(sites_file);
+            stream.write('// Last update: ' + new Date() + '\n');
             stream.write('var sites = [\n');
             for (var i = 0; i < linesCount; i++) {
                 let line = lines[i];
@@ -24,6 +26,6 @@ fetch(domain_list_url)
             }
             stream.write('];\n');
             stream.end();
+            stream.close();
         }
     );
-
