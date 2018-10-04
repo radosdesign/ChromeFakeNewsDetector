@@ -1,4 +1,4 @@
-# Google Chrome extension: Warning of pro-Putin propaganda
+# Google Chrome extension: Warning of Fakenews websites
 
 Warning of websites which knowingly or unknowingly spread fake news. List of Slovak and Czech websites was originally created by activist and history teacher Juraj Smatana. Current list is based on https://www.konspiratori.sk/en.
 When you visit a site from this list you will see a message which asks you to use caution and common sense.  
