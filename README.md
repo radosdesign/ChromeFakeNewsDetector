@@ -1,7 +1,7 @@
 # Google Chrome extension: Warning of pro-Putin propaganda
 
-Warning of websites which knowingly or unknowingly spread pro-Putin propaganda. List of Slovak and Czech websites was originally created by activist and history teacher Juraj Smatana. Current list is based on https://www.konspiratori.sk/en.
-When you are on the website which is on the list, icon which looks like soviet flag will be show on the right side of address bar.  
+Warning of websites which knowingly or unknowingly spread fake news. List of Slovak and Czech websites was originally created by activist and history teacher Juraj Smatana. Current list is based on https://www.konspiratori.sk/en.
+When you visit a site from this list you will see a message which asks you to use caution and common sense.  
 You have been warned :-)
 
 Media:  
@@ -11,7 +11,7 @@ Slovak TV station "Markiza": http://goo.gl/MD25rX
 Czech news website "Tiscali.cz": http://goo.gl/mT2izL  
 Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP  
 
-[View in Store](https://chrome.google.com/webstore/detail/upozornenie-na-putinovu-p/ajfhmidimnkpbhnkcckllicmhhdipmoo)  
+[View in Store](https://chrome.google.com/webstore/detail/detektor-dezinforma%C4%8Dn%C3%BDch/ajfhmidimnkpbhnkcckllicmhhdipmoo?hl=en)  
 
 ## How to build
 
@@ -32,4 +32,4 @@ grunt
 ```
 This will generate 'dist/extension.zip' which you can upload to Google's Chrome Webstore (https://chrome.google.com/webstore/devconsole)
 
-![Google Chrome extension: Warning of pro-Putin propaganda](http://radosdesign.github.io/propaganda-screenshot.jpg)
+![Google Chrome extension: Warning of pro-Putin propaganda](http://radosdesign.github.io/screenshot.jpg)
