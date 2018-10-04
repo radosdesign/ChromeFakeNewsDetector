@@ -1,6 +1,6 @@
 # Google Chrome extension: Warning of Fakenews websites
 
-Warning of websites which knowingly or unknowingly spread fake news. List of Slovak and Czech websites was originally created by activist and history teacher Juraj Smatana. Current list is based on https://www.konspiratori.sk/en.
+Warning of websites which knowingly or unknowingly spread fake news. List of Slovak and Czech websites was originally created by activist and history teacher Juraj Smatana. Current list is based on https://www.konspiratori.sk/en/inclusion-criteria.php.
 When you visit a site from this list you will see a message which asks you to use caution and common sense.  
 You have been warned :-)
 
