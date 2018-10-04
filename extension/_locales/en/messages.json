@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Detector of fake-news sites"
+    "message": "Fake news website detector"
   },
   "appShortName": {
-    "message": "Detector of fake-news sites"
+    "message": "Fake news website detector"
   },
   "appDesc": {
     "message": "Warning of websites which knowingly or unknowingly spread fake news."
   },
   "actionDefaultTitle": {
-    "message": "Detector of fake-news sites"
+    "message": "Fake news website detector"
   }
 }
