@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Upozornění na putinovskou propagandu"
+    "message": "Detektor dezinformačních webů"
   },
   "appShortName": {
-    "message": "Putinovská propaganda"
+    "message": "Detektor dezinformačních webů"
   },
   "appDesc": {
-    "message": "Upozornění na weby, které vědomě či nevědomě šíří putinovskou propagandu."
+    "message": "Upozornění na weby které vědomě či nevědomě šíří dezinformace."
   },
   "actionDefaultTitle": {
-    "message": "Upozornění: Tato stránka může šířit putinovskou propagandu!"
+    "message": "Detektor dezinformačních webů"
   }
 }

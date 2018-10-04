@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Warning of pro-Putin propaganda"
+    "message": "Detector of fake-news sites"
   },
   "appShortName": {
-    "message": "Pro-Putin propaganda"
+    "message": "Detector of fake-news sites"
   },
   "appDesc": {
-    "message": "Warning of websites which knowingly or unknowingly spread pro-Putin propaganda."
+    "message": "Warning of websites which knowingly or unknowingly spread fake news."
   },
   "actionDefaultTitle": {
-    "message": "Warning: This website may spread pro-Putin propaganda!"
+    "message": "Detector of fake-news sites"
   }
 }
