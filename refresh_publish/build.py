@@ -8,7 +8,8 @@ PREREQUISITIES
  - Python
 '''
 
-import subprocess
+import subprocess, os
+import webstore_upload
 
 
 def log(message):
@@ -23,11 +24,11 @@ def log(message):
 
 def build_dist_package():
     '''
-    Build distribution package
+    Refresh sites.js, build distribution package and upload it to webstore
     '''
 
-    # Update GIT repo
-    # TODO
+    log('--> Update GIT repo')
+    subprocess.call(["git", "pull"], cwd='../')
 
     log('--> Install node modules')
     subprocess.call(["npm", "install"], cwd='../')
@@ -38,15 +39,16 @@ def build_dist_package():
     log('--> Create distribution binary file')
     subprocess.call(["grunt"], cwd='../')
 
-    # Update extension in Webstore
-    # TODO
+    log('--> Update extension in Webstore')
+    os.environ["WEBSTORE_SECRETS_FILE"] = "webstore.json"
+    os.environ["WEBSTORE_OAUTH2_FILE"] = "oauth2.dat"
+    webstore_upload.do_upload()
 
-    # Push changes to GIT repo
     log('--> Push changes to GIT repo')
+    subprocess.call(["git", "add", "version"], cwd='../')
     subprocess.call(["git", "add", "extension/sites.js"], cwd='../')
     subprocess.call(["git", "commit", "-m", "Version updated"], cwd='../')
     subprocess.call(["git", "push"], cwd='../')
-    # TODO
 
 
 if __name__ == '__main__':

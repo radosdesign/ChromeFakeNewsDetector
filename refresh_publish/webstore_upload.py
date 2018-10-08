@@ -105,8 +105,7 @@ class ChromeWebStore(object):
                 raise ValueError('Could not publish: %s' % (msg,))
 
 
-if __name__ == '__main__':
-
+def do_upload():
     item = extension_id
     # From the service account created in https://console.developers.google.com
     secrets = os.environ.get("WEBSTORE_SECRETS_FILE", None)
