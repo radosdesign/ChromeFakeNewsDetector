@@ -15,7 +15,17 @@ Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP
 
 ## How to build
 
-##### Setup OAuth 2.0 credentials
+### Prerequisites
+
+- Install Python 3: `sudo apt install python3`
+- Install Python Setuptools: `sudo apt install python-setuptools`
+- Install PIP: `sudo apt install python3-pip`
+- Install oauth2client: `pip3 install oauth2client`
+- Install NodeJS: `sudo apt install nodejs`
+- Install NPM: `sudo apt install npm`
+- Install Grunt: `sudo npm install -g grunt`
+
+### Setup OAuth 2.0 credentials
 
 - Go to [https://console.developers.google.com/apis/credentials](https://console.developers.google.com/apis/credentials)
 - Create new OAuth Client ID
@@ -30,7 +40,7 @@ Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP
 - In case last step was successful, new file will be created: `refresh_publish/oauth2.dat` which contains needed credentials
 
 
-##### Refresh sites.js and upload new extension version to the Webstore
+### Refresh sites.js and upload new extension version to the Webstore
 ```
 cd refresh_publish
 python build.py

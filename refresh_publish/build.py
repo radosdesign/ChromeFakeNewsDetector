@@ -28,6 +28,7 @@ def build_dist_package():
     '''
 
     log('--> Update GIT repo')
+    subprocess.call(["eval", "\"$(ssh-agent)\""], cwd='../')
     subprocess.call(["git", "pull"], cwd='../')
 
     log('--> Install node modules')
