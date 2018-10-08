@@ -20,7 +20,7 @@ import oauth2client.file
 #
 extension_zip = '../dist/extension.zip'
 # One of 'trustedTesters' | 'default'
-publish_target = 'trustedTesters'
+publish_target = 'default'
 # Extension ID:
 extension_id = 'ajfhmidimnkpbhnkcckllicmhhdipmoo'
 
