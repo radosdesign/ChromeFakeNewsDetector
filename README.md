@@ -15,21 +15,31 @@ Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP
 
 ## How to build
 
-##### Install node packages
-```
-npm install
-```
+##### Setup OAuth 2.0 credentials
 
-##### Update sites list
-```
-node generate-sites.js
-```
-This command updates 'extension/sites.js' file based on https://www.konspiratori.sk/assets/downloads/zoznam.txt 
+- Go to [https://console.developers.google.com/apis/credentials](https://console.developers.google.com/apis/credentials)
+- Create new OAuth Client ID
+  - Authorized JavaScript origins: 
+    - `https://accounts.google.com`
+    - `http://localhost:8080`
+  - Authorized redirect URIs:
+    - `http://localhost:8080/`
+- Download JSON credentials to `refresh_publish/webstore_client_secret.json`
+- `cd refresh_publish`
+- After you execute `python build.py` OAuth flow will be initiated in which you have to confirm access to your Google account
+- In case last step was successful, new file will be created: `refresh_publish/oauth2.dat` which contains needed credentials
 
-##### Create distribution package
-```
-grunt
-```
-This will generate 'dist/extension.zip' which you can upload to Google's Chrome Webstore (https://chrome.google.com/webstore/devconsole)
 
-![Google Chrome extension: Warning of pro-Putin propaganda](http://radosdesign.github.io/screenshot.jpg)
+##### Refresh sites.js and upload new extension version to the Webstore
+```
+cd refresh_publish
+python build.py
+```
+This command:
+1. updates 'extension/sites.js' file based on https://www.konspiratori.sk/assets/downloads/zoznam.txt
+2. Increases extension version number
+3. Uploads new extension version to the Webstore
+4. Updates GIT repository 
+
+
+![Google Chrome extension: Fake News Website Detector](http://radosdesign.github.io/screenshot.jpg)
