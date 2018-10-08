@@ -26,6 +26,5 @@ fetch(domain_list_url)
             }
             stream.write('];\n');
             stream.end();
-            stream.close();
         }
     );
