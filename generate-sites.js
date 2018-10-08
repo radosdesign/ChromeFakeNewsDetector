@@ -15,14 +15,14 @@ fetch(domain_list_url)
 
             let stream = fs.createWriteStream(sites_file);
             stream.write('// Last update: ' + new Date() + '\n');
-            stream.write('var sites = [\n');
+            stream.write('var sites = [');
             for (var i = 0; i < linesCount; i++) {
                 let line = lines[i];
-                stream.write('  "' + line + '"');
+                stream.write('"' + line + '"');
                 if (i < linesCount - 1) {
                     stream.write(',');
                 }
-                stream.write('\n');
+                stream.write('');
             }
             stream.write('];\n');
             stream.end();
