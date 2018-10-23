@@ -21,6 +21,7 @@ Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP
 - Install Python Setuptools: `sudo apt install python-setuptools`
 - Install PIP: `sudo apt install python3-pip`
 - Install oauth2client: `pip3 install oauth2client`
+- Install httplib2: `pip3 install httplib2`
 - Install NodeJS: `sudo apt install nodejs`
 - Install NPM: `sudo apt install npm`
 - Install Grunt: `sudo npm install -g grunt`
@@ -36,7 +37,7 @@ Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP
     - `http://localhost:8080/`
 - Download JSON credentials to `refresh_publish/webstore_client_secret.json`
 - `cd refresh_publish`
-- After you execute `python build.py` OAuth flow will be initiated in which you have to confirm access to your Google account
+- After you execute `python3 build.py` OAuth flow will be initiated in which you have to confirm access to your Google account
 - In case last step was successful, new file will be created: `refresh_publish/oauth2.dat` which contains needed credentials
 
 
