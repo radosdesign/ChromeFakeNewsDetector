@@ -17,8 +17,10 @@ fetch(domain_list_url)
             stream.write('// Last update: ' + new Date() + '\n');
             stream.write('var sites = [');
             for (var i = 0; i < linesCount; i++) {
-                let line = lines[i];
-                stream.write('"' + line + '"');
+                let line = lines[i].split(',');
+                // line[0] is the domain name
+                // line[1] is the score (rating)
+                stream.write('"' + line[0] + '"');
                 if (i < linesCount - 1) {
                     stream.write(',');
                 }
