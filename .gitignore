@@ -4,6 +4,7 @@ dist/
 node_modules/
 venv/
 refresh_public/*.dat
+refresh_public/*.json
 
 # Windows image file caches
 Thumbs.db
