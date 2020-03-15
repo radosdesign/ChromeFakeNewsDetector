@@ -16,7 +16,7 @@
     "default_title" : "__MSG_actionDefaultTitle__"
   },
   "permissions" : [
-    "http://*/", "https://*/", "tabs", "activeTab", "proxy", "contextMenus"
+    "http://*/", "https://*/", "tabs"
   ],
   "web_accessible_resources": [
     "assets/*.png"
