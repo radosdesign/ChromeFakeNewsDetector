@@ -5,11 +5,11 @@ When you visit a site from this list you will see a message which asks you to us
 You have been warned :-)
 
 Media:  
-Slovak newspaper "Dennik N": http://goo.gl/R0h2rX  
-Slovak news website "Tvnoviny.sk": http://goo.gl/BuVELL  
-Slovak TV station "Markiza": http://goo.gl/MD25rX  
-Czech news website "Tiscali.cz": http://goo.gl/mT2izL  
-Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP  
+- Slovak newspaper "Dennik N": http://goo.gl/R0h2rX  
+- Slovak news website "Tvnoviny.sk": http://goo.gl/BuVELL  
+- Slovak TV station "Markiza"  
+- Czech news website "Tiscali.cz": http://goo.gl/mT2izL  
+- Czech news website "Eurozpravy.cz": http://goo.gl/CFBLjP  
 
 [View in Store](https://chrome.google.com/webstore/detail/detektor-dezinforma%C4%8Dn%C3%BDch/ajfhmidimnkpbhnkcckllicmhhdipmoo?hl=en)  
 
@@ -47,7 +47,7 @@ cd refresh_publish
 python build.py
 ```
 This command:
-1. updates 'extension/sites.js' file based on https://www.konspiratori.sk/assets/downloads/zoznam.txt
+1. updates 'extension/sites.js' file based on https://konspiratori.sk/static/lists/zoznam.txt
 2. Increases extension version number
 3. Uploads new extension version to the Webstore
 4. Updates GIT repository 
