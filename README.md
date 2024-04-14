@@ -53,4 +53,4 @@ This command:
 4. Updates GIT repository 
 
 
-![Google Chrome extension: Fake News Website Detector](http://radosdesign.github.io/screenshot.jpg)
+![Google Chrome extension: Fake News Website Detector](https://raw.githubusercontent.com/radoslavdodek/radosdesign.github.io/master/screenshot.jpg)
