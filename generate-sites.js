@@ -11,21 +11,21 @@ fetch(domain_list_url)
     .then(res => res.text())
     .then(body => {
             let lines = body.split(/\r?\n/);
+            lines = lines.filter(line => line !== '');
             let linesCount = lines.length;
 
             let stream = fs.createWriteStream(sites_file);
             stream.write('// Last update: ' + new Date() + '\n');
             stream.write('var sites = [');
-            for (var i = 0; i < linesCount; i++) {
-                let line = lines[i].split(',');
+            lines.forEach((line, index) => {
                 // line[0] is the domain name
                 // line[1] is the score (rating)
-                stream.write('"' + line[0] + '"');
-                if (i < linesCount - 1) {
+                let domain = line.split(',')[0];
+                stream.write('"' + domain + '"');
+                if (index < lines.length - 1) {
                     stream.write(',');
                 }
-                stream.write('');
-            }
+            });
             stream.write('];\n');
             stream.end();
         }
